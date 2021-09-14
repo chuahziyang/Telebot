@@ -7,6 +7,14 @@
 			"problemMatcher": [],
 			"label": "npm: start",
 			"detail": "node dist/index.js",
+			"group": "build"
+		},
+		{
+			"type": "npm",
+			"script": "start:dev",
+			"problemMatcher": [],
+			"label": "npm: start:dev",
+			"detail": "nodemon",
 			"group": {
 				"kind": "build",
 				"isDefault": true
